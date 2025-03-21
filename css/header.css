@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #181818;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.header img{
+    height: 40px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.header ul{
+    width: 60%;
+    height: 40px;
+    float: right;
+    list-style-type: none;
+}
+
+.header ul li a{
+    margin-left: 15px;
+    float: left;
+    color: white;
+    
+}
+.header ul li a:hover{
+    color: #feb91a;
+    text-decoration: none;
+    
+}
+.header ul li a:active{
+    color: #feb91a;
+    text-decoration: none;
+}
